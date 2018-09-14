@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+Map
+{% endblock %}
+
+ {% block content %}
+
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+   integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+   crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+   integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+   crossorigin=""></script>
+
+    <h1><b>Explore the map before you decide to take the quiz</b></h1>
+
+   <div class="container">
+          <div id="map"></div>
+            <script type='text/javascript'>
+              //Declare a map and coordinates
+              var map = L.map('map').setView([51.509865, -0.118092], 2);
+                //Add OpenStreetMap layer
+              L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                  attribution: '&copy; <a rel="nofollow" href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+              }).addTo(map);
+
+            </script>
+
+<script language="JavaScript" type="text/javascript">
+           function addMarker() {
+               var markers = {{markers|safe}};
+               //Loop through the markers array
+               for (var i = 0; i < markers.length; i++) {
+                   var markerLocation = new L.LatLng(markers[i][0], markers[i][1]);
+                   var popupText = markers[i][2];
+                   var marker = new L.Marker(markerLocation);
+                   if (markers[i][3] == category.value) {
+                       map.addLayer(marker);
+                       marker.bindPopup(popupText);
+                   }
+               }
+           }
+
+           function removeLayer(){
+               var layer = addMarker();
+               map.eachLayer(function (layer) {
+                   map.removeLayer(layer);
+               });
+               L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                  attribution: '&copy; <a rel="nofollow" href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+              }).addTo(map);
+           }
+        </script>
+
+  </div>
+
+     <div id="sidebar">
+      <div class="options">
+          <form>
+              <label for="category"><h2>Choose a category from the list:</h2></label>
+                <br>
+              <select id ="category"  style = "width: 100%; padding: 12px 20px; margin: 8px 0">
+                  <option value=3>People</option>
+                  <option value=1>Documents</option>
+                  <option value=2>Events</option>
+            </select>
+                <input type="button" id="button" value="Check results"
+              onClick="addMarker()"/>
+              <input type="button" id="button" value="New search"
+              onClick="removeLayer()"/>
+
+            </form>
+      </div>
+   </div>
+{% endblock %}

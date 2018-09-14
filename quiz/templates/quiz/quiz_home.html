@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+	<link rel="shortcut icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon">
+	{% block tittle %}Quiz Application{% endblock %}
+	<link rel = "stylesheet" href = "{% static 'css/quiz.css' %}">
+	<script src = "{% static 'quiz/js/quiz.js' %}"></script>
+
+{% block content %}
+	<div id = "container">
+		<header>
+			<h1>Challenge</h1>
+			<p> Test your knowledge in <strong>Human Rights </strong></p>
+		</header>
+
+		<section>
+
+        <script language="JavaScript" type="text/javascript">
+
+            function submitAnswers(answers){
+                var total = answers.length;
+                var score = 0;
+                var choice = [];
+
+                for(i = 1; i <= total; i++){
+                    choice[i] = document.forms["quizForm"]["q"+i].value;
+                    if(choice[i] === null || choice[i] === ''){
+                        alert('you missed question ' + i);
+                    }
+                }
+
+                for(i=1; i<= total; i++){
+                    if(choice[i+1] === answers[i]){
+                        score++;
+                    }
+                }
+
+                var results = document.getElementById('results');
+                results.innerHTML = "<h3>You scored <span>" + score + "</span> out of <span>" + total + "</span></h3>";
+                alert("You scored " + score + " out of " + total);
+                return false;
+            }
+
+        </script>
+
+
+			<div id = "results"></div>
+			<form name = "quizForm" onsubmit = "return submitAnswers(answers = [{% for q in questions %}'{{ q.answer }}',{% endfor %}])">
+			{% for q in questions %}
+				<h3> {{ q.id }}.  {{ q.question }}</h3>
+				<input type = "radio" name = "q{{ q.id }}" value = "1" id = "q1a">   a. {{ q.option1 }}<br><br>
+				<input type = "radio" name = "q{{ q.id }}" value = "2" id = "q1b">   b. {{ q.option2 }}<br><br>
+				<input type = "radio" name = "q{{ q.id }}" value = "3" id = "q1c">   c. {{ q.option3 }}<br><br>
+				<input type = "radio" name = "q{{ q.id }}" value = "4" id = "q1d">   d. {{ q.option4 }}<br><br>
+
+			{% endfor %}
+
+				<br><br>
+				<input type = "submit" value = "Submit Answer">
+			</form>
+			<br><br>
+		<a href="/quiz" class="button">Reset</a>
+		</section>
+		<footer>
+
+		</footer>
+	</div>
+{% endblock %}

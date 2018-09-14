@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}{{ text.title }}{% endblock %}
+
+{% block content %}
+    <h1>{{ text.title }}</h1>
+    <p class="date">
+        Published {{ text.publish }} by {{ text.author }}
+    </p>
+    {{ text.body|linebreaks }}
+    <p>
+        <a href="{% url "library:text_share" text.id %}">
+            Share this text
+        </a>
+    </p>
+    <h2>Similar articles</h2>
+{% for text in similar_articles %}
+<p>
+<a href="{{ text.get_absolute_url }}">{{ text.title }}</a>
+</p>
+{% empty %}
+There are no similar articles yet.
+{% endfor %}
+
+
+{% endblock %}

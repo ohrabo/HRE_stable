@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block title %}Library{% endblock %}
+
+{% block content %}
+    <h1><b>Library</b></h1>
+    {% for text in library %}
+        <article>
+        <h1>
+            <a href="{{ text.get_absolute_url }}">
+                {{ text.title }}
+            </a>
+        </h1>
+        <p class="tags">
+            Tags:
+            {% for tag in text.tags.all %}
+                <a href="{% url "library:text_list_by_tag" tag.slug %}">
+                    {{ tag.name }}
+                </a>
+                {% if not forloop.last %}, {% endif %}
+            {% endfor %}
+
+        <p class="date">
+            Published {{ text.publish }} by {{ text.author }}
+        </p>
+        {{ text.body|truncatewords:30|linebreaks }}
+        </article>
+    {% endfor %}
+    {% include "pagination.html" with page=library %}
+    {% if tag %}
+<h2>Articles tagged with "{{ tag.name }}"</h2>
+{% endif %}
+{% endblock %}

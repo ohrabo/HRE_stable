@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="06314a32-8c7d-4ee1-99d0-629d885142e4" name="Default" comment="stable working project">
+      <change afterPath="$PROJECT_DIR$/.gitignore.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edu/migrations/0006_course_category.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/migrations/0002_auto_20180904_0934.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/migrations/0003_auto_20180912_1206.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/migrations/0004_text_category.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/templates/library/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/templates/library/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/templates/library/share.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/templates/pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/static/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/migrations/0008_auto_20180913_1519.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="881338745">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="DjangoModelDependency/#HRE" value="3" />
+          <entry key="Python/#C:/Users/HP User/Desktop/MyPythonFiles/HRE_stable/HRE" value="1" />
+          <entry key="SCHEMA:main" value="5" />
+          <entry key="css" value="2" />
+          <entry key="html" value="17" />
+          <entry key="myquiz_answer" value="1" />
+          <entry key="py" value="23" />
+          <entry key="quiz_category" value="1" />
+          <entry key="quiz_quiz" value="1" />
+          <entry key="sql" value="1" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="2" />
+          <entry key="Database Element" value="3" />
+          <entry key="HTML" value="17" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="23" />
+          <entry key="SQL" value="1" />
+          <entry key="UML" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="74" />
+          <entry key="html" value="5" />
+          <entry key="py" value="115" />
+          <entry key="py@HRE" value="37" />
+          <entry key="sql" value="5" />
+          <entry key="txt" value="52" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="74" />
+          <entry key="CommandLine" value="34" />
+          <entry key="HTML" value="5" />
+          <entry key="PLAIN_TEXT" value="55" />
+          <entry key="Python" value="115" />
+          <entry key="SQL" value="5" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="HRE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/students/templates/students/course/detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-51">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/map/static/css/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/templates/library/detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>module</find>
+      <find>content</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/userprofile/templates/userprofile/register.html" />
+        <option value="$PROJECT_DIR$/userprofile/templates/userprofile/register_done.html" />
+        <option value="$PROJECT_DIR$/map/static/css/map_style.css" />
+        <option value="$PROJECT_DIR$/users/templates/users/user/registration.html" />
+        <option value="$PROJECT_DIR$/users/forms.py" />
+        <option value="$PROJECT_DIR$/users/urls.py" />
+        <option value="$PROJECT_DIR$/users/views.py" />
+        <option value="$PROJECT_DIR$/srudents/views.py" />
+        <option value="$PROJECT_DIR$/edu/templates/courses/option/detail.html" />
+        <option value="$PROJECT_DIR$/srudents/urls.py" />
+        <option value="$PROJECT_DIR$/userprofile/admin.py" />
+        <option value="$PROJECT_DIR$/students/templates/students/student/registration.html" />
+        <option value="$PROJECT_DIR$/students/forms.py" />
+        <option value="$PROJECT_DIR$/edu/views.py" />
+        <option value="$PROJECT_DIR$/students/views.py" />
+        <option value="$PROJECT_DIR$/students/urls.py" />
+        <option value="$PROJECT_DIR$/edu/templates/courses/content/text.html" />
+        <option value="$PROJECT_DIR$/edu/templates/courses/content/file.html" />
+        <option value="$PROJECT_DIR$/edu/templates/courses/content/image.html" />
+        <option value="$PROJECT_DIR$/edu/templates/courses/content/video.html" />
+        <option value="$PROJECT_DIR$/students/templates/students/course/list.html" />
+        <option value="$PROJECT_DIR$/edu/templates/manage/module/content_list.html" />
+        <option value="$PROJECT_DIR$/edu/templates/manage/module/formset.html" />
+        <option value="$PROJECT_DIR$/edu/templates/manage/content/form.html" />
+        <option value="$PROJECT_DIR$/texts/admin.py" />
+        <option value="$PROJECT_DIR$/texts/models.py" />
+        <option value="src:table:/61e0b21e/3d5373b0-4eb2-4b69-8eb9-e6ee21c04691/main.texts_text" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3d5373b0-4eb2-4b69-8eb9-e6ee21c04691/console.sql" />
+        <option value="$PROJECT_DIR$/HRE/settings.py" />
+        <option value="$PROJECT_DIR$/library/templates/library/article/detail.html" />
+        <option value="$PROJECT_DIR$/library/templates/library/article/list.html" />
+        <option value="$PROJECT_DIR$/HRE/urls.py" />
+        <option value="$PROJECT_DIR$/map/templates/base.html" />
+        <option value="$PROJECT_DIR$/library/urls.py" />
+        <option value="$PROJECT_DIR$/library/forms.py" />
+        <option value="$PROJECT_DIR$/library/apps.py" />
+        <option value="$PROJECT_DIR$/library/admin.py" />
+        <option value="$PROJECT_DIR$/library/templates/pagination.html" />
+        <option value="$PROJECT_DIR$/library/templates/library/share.html" />
+        <option value="$PROJECT_DIR$/library/templates/library/list.html" />
+        <option value="$PROJECT_DIR$/library/templates/library/detail.html" />
+        <option value="$PROJECT_DIR$/library/models.py" />
+        <option value="$PROJECT_DIR$/quiz/models.py" />
+        <option value="$PROJECT_DIR$/quiz/admin.py" />
+        <option value="$PROJECT_DIR$/edu/models.py" />
+        <option value="$PROJECT_DIR$/library/views.py" />
+        <option value="$PROJECT_DIR$/map/static/css/HRE_base.css" />
+        <option value="$PROJECT_DIR$/map/templates/map/hrmap.html" />
+        <option value="$PROJECT_DIR$/students/templates/students/course/detail.html" />
+        <option value="$PROJECT_DIR$/map/static/css/base.css" />
+        <option value="$PROJECT_DIR$/.gitignore.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-24" />
+    <option name="width" value="1386" />
+    <option name="height" value="477" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HRE_stable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRE_stable" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="base.css&#9;FILE&#9;file://C:/Users/HP User/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/rest_framework/static/rest_framework/docs/css/base.css" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../try/Edudemo_stable" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP User\Desktop\MyPythonFiles\HRE_stable\map\static\css" />
+      <recent name="C:\Users\HP User\Desktop\MyPythonFiles\HRE_stable\map\static" />
+      <recent name="C:\Users\HP User\Desktop\MyPythonFiles\HRE\edu\templates\static" />
+      <recent name="C:\Users\HP User\Desktop\MyPythonFiles\HRE\map\static\css" />
+      <recent name="C:\Users\HP User\Desktop\MyPythonFiles\HRE\texts\static\texts\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP User\Desktop\MyPythonFiles\HRE_stable\map\static\css" />
+      <recent name="C:\Users\HP User\Desktop\MyPythonFiles\HRE_stable\library\templates\library" />
+      <recent name="C:\Users\HP User\Desktop\MyPythonFiles\HRE\map\static\css" />
+      <recent name="C:\Users\HP User\Desktop\MyPythonFiles\HRE\edu" />
+      <recent name="C:\Users\HP User\Desktop\MyPythonFiles\HRE\edu\templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="HRE" type="Python.DjangoServer" factoryName="Django server">
+      <module name="HRE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="HRE.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\HP User\PycharmProjects\untitled\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06314a32-8c7d-4ee1-99d0-629d885142e4" name="Default" comment="" />
+      <created>1532797935868</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532797935868</updated>
+    </task>
+    <task id="LOCAL-00001" summary="stable working project">
+      <created>1535562483670</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535562483670</updated>
+    </task>
+    <task id="LOCAL-00002" summary="stable working project">
+      <created>1535562531752</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1535562531752</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4818402" visible="true" weight="0.19288956" />
+      <window_info id="Structure" order="1" weight="0.24962178" />
+      <window_info id="Favorites" order="2" sideWeight="0.5181598" side_tool="true" weight="0.1505295" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31587562" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4969743" weight="0.03927987" />
+      <window_info active="true" anchor="bottom" id="manage.py@HRE" order="8" visible="true" weight="0.35188216" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32569557" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3280757" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5030257" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Console" order="12" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="REST Client" order="13" weight="0.4140753" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="15" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.22617246" />
+      <window_info anchor="right" id="SciView" order="5" />
+      <window_info anchor="right" id="PlantUML" order="6" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15592971" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329653" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3170347" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3280757" />
+      <window_info anchor="bottom" id="manage.py@HRE" order="11" weight="0.32492113" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Data View" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="C:\Users\HP User\Desktop\MyPythonFiles\HRE\HREProject" />
+      <path value="C:\Users\HP User\Desktop\MyPythonFiles\HRE_stable\MapProject" />
+    </ignored-roots>
+    <MESSAGE value="stable working project" />
+    <option name="LAST_COMMIT_MESSAGE" value="stable working project" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="das://src:table:/61e0b21e/3d5373b0-4eb2-4b69-8eb9-e6ee21c04691/main.edu_file">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/61e0b21e/3d5373b0-4eb2-4b69-8eb9-e6ee21c04691/main.edu_file">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.edu_course">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.edu_course</OriginalElement>
+          <nodes>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.auth_user</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.edu_subject</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.edu_course</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6742424242424242" x="263.0" y="874.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#C:/Users/HP User/Desktop/MyPythonFiles/HRE_stable/quiz">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#C:/Users/HP User/Desktop/MyPythonFiles/HRE_stable/quiz</OriginalElement>
+          <nodes>
+            <node x="" y="">quiz.admin.QuizAdmin</node>
+            <node x="" y="">django.contrib.admin.options.BaseModelAdmin</node>
+            <node x="" y="">django.forms.widgets.MediaDefiningClass</node>
+            <node x="" y="">django.db.models.base.Model</node>
+            <node x="" y="">django.apps.config.AppConfig</node>
+            <node x="" y="">quiz.models.Quiz</node>
+            <node x="" y="">object</node>
+            <node x="" y="">django.contrib.admin.options.ModelAdmin</node>
+            <node x="" y="">quiz.models.Category</node>
+            <node x="" y="">django.db.migrations.migration.Migration</node>
+            <node x="" y="">django.db.models.base.ModelBase</node>
+            <node x="" y="">quiz.admin.CategoryAdmin</node>
+            <node x="" y="">quiz.apps.QuizConfig</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6162881754111198" x="583.0" y="-78.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#C:/Users/HP User/Desktop/MyPythonFiles/HRE_stable/map">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#C:/Users/HP User/Desktop/MyPythonFiles/HRE_stable/map</OriginalElement>
+          <nodes>
+            <node x="" y="">map.models.Marker</node>
+            <node x="" y="">django.forms.widgets.MediaDefiningClass</node>
+            <node x="" y="">django.db.models.base.Model</node>
+            <node x="" y="">django.db.migrations.migration.Migration</node>
+            <node x="" y="">object</node>
+            <node x="" y="">django.apps.config.AppConfig</node>
+            <node x="" y="">django.contrib.admin.options.BaseModelAdmin</node>
+            <node x="" y="">map.models.Category</node>
+            <node x="" y="">map.admin.MarkerAdmin</node>
+            <node x="" y="">map.admin.CategoryAdmin</node>
+            <node x="" y="">django.contrib.admin.options.ModelAdmin</node>
+            <node x="" y="">map.apps.MapConfig</node>
+            <node x="" y="">django.db.models.base.ModelBase</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6599118942731278" x="522.0" y="135.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu/templates/manage/content/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/61e0b21e/3d5373b0-4eb2-4b69-8eb9-e6ee21c04691/main.edu_module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/61e0b21e/3d5373b0-4eb2-4b69-8eb9-e6ee21c04691/main.texts_text" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3d5373b0-4eb2-4b69-8eb9-e6ee21c04691/console.sql" />
+    <entry file="das://table:/61e0b21e/3d5373b0-4eb2-4b69-8eb9-e6ee21c04691/main.texts_text" />
+    <entry file="file://$PROJECT_DIR$/texts/models.py" />
+    <entry file="file://$PROJECT_DIR$/map/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://table:/61e0b21e/3d5373b0-4eb2-4b69-8eb9-e6ee21c04691/main.map_category">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/61e0b21e/3d5373b0-4eb2-4b69-8eb9-e6ee21c04691/main.edu_module">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/texts/admin.py" />
+    <entry file="file://$PROJECT_DIR$/HRE/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu/templates/courses/option/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu/templates/courses/content/file.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="69" selection-start-column="69" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HRE/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#C:/Users/HP User/Desktop/MyPythonFiles/HRE_stable/HRE">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#C:/Users/HP User/Desktop/MyPythonFiles/HRE_stable/HRE</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.SCHEMA:main">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.SCHEMA:main</OriginalElement>
+          <nodes>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.newquiz_useranswer</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.quiz_scores</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.edu_module</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.auth_group_permissions</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.quiz_category</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.myquiz_section</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.django_content_type</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.edu_course_students</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.auth_user_groups</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.edu_content</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.quiz_scores_current_answers</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.userprofile_profile</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.quiz_quiz</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.newquiz_answer</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.auth_permission</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.quizzes_categories</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.edu_course</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.newquiz_category</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.auth_user_user_permissions</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.auth_user</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.django_admin_log</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.django_session</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.taggit_tag</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.taggit_taggeditem</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.quizzes_students</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.sqlite_master</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.myquiz_question</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.edu_text</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.edu_subject</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.map_marker</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.myquiz_course</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.auth_group</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.myquiz_useranswer</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.quizzes</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.edu_image</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.map_category</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.edu_video</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.myquiz_course_students</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.newquiz_question</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.myquiz_answer</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.sqlite_sequence</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.edu_file</node>
+            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.django_migrations</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.1735985533453888" x="2404.0" y="1025.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3d5373b0-4eb2-4b69-8eb9-e6ee21c04691/schema/main/table/myquiz_answer" />
+    <entry file="das://3d5373b0-4eb2-4b69-8eb9-e6ee21c04691/schema/main/table/quiz_category" />
+    <entry file="uml://DjangoModelDependency/#HRE">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DjangoModelDependency</ID>
+          <OriginalElement>#HRE</OriginalElement>
+          <nodes>
+            <node x="152.0" y="485.0">map.models.Marker</node>
+            <node x="614.6666666666667" y="80.0">edu.models.Subject</node>
+            <node x="347.0" y="485.0">quiz.models.Quiz</node>
+            <node x="0.0" y="485.0">library.models.Text</node>
+            <node x="0.0" y="170.0">edu.models.File</node>
+            <node x="569.0" y="250.0">edu.models.Module</node>
+            <node x="335.0" y="405.0">quiz.models.Category</node>
+            <node x="282.0" y="170.0">edu.models.Image</node>
+            <node x="135.0" y="170.0">edu.models.Video</node>
+            <node x="253.00000000000003" y="250.0">django.contrib.contenttypes.models.ContentType</node>
+            <node x="479.40972222222223" y="330.0">edu.models.Content</node>
+            <node x="69.0" y="405.0">map.models.Category</node>
+            <node x="432.0" y="170.0">edu.models.Text</node>
+            <node x="435.5" y="0.0">django.contrib.auth.models.Group</node>
+            <node x="175.5" y="0.0">django.contrib.auth.models.Permission</node>
+            <node x="571.0" y="170.0">edu.models.Course</node>
+            <node x="316.75" y="80.0">django.contrib.auth.models.User</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="edu.models.Course" target="django.contrib.auth.models.User">
+              <point x="0.0" y="-15.0" />
+              <point x="638.0" y="130.0" />
+              <point x="504.66666666666674" y="130.0" />
+              <point x="85.41666666666669" y="15.0" />
+            </edge>
+            <edge source="edu.models.Video" target="django.contrib.auth.models.User">
+              <point x="0.0" y="-15.0" />
+              <point x="198.5" y="140.0" />
+              <point x="368.0" y="140.0" />
+              <point x="-51.25" y="15.0" />
+            </edge>
+            <edge source="edu.models.Content" target="edu.models.Module">
+              <point x="35.0" y="-15.0" />
+              <point x="584.4097222222222" y="305.0" />
+              <point x="638.0" y="305.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="django.contrib.auth.models.User" target="django.contrib.auth.models.Permission">
+              <point x="-51.25" y="-15.0" />
+              <point x="368.0" y="55.0" />
+              <point x="295.5" y="55.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="edu.models.Course" target="edu.models.Subject">
+              <point x="44.66666666666666" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="quiz.models.Quiz" target="quiz.models.Category">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="edu.models.Image" target="django.contrib.auth.models.User">
+              <point x="0.0" y="-15.0" />
+              <point x="347.0" y="150.0" />
+              <point x="402.16666666666674" y="150.0" />
+              <point x="-17.083333333333314" y="15.0" />
+            </edge>
+            <edge source="edu.models.File" target="django.contrib.auth.models.User">
+              <point x="0.0" y="-15.0" />
+              <point x="57.5" y="130.0" />
+              <point x="333.83333333333337" y="130.0" />
+              <point x="-85.41666666666666" y="15.0" />
+            </edge>
+            <edge source="django.contrib.auth.models.User" target="django.contrib.auth.models.Group">
+              <point x="51.25" y="-15.0" />
+              <point x="470.5" y="55.0" />
+              <point x="543.0" y="55.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="edu.models.Module" target="edu.models.Course">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="edu.models.Text" target="django.contrib.auth.models.User">
+              <point x="0.0" y="-15.0" />
+              <point x="491.5" y="150.0" />
+              <point x="436.33333333333337" y="150.0" />
+              <point x="17.083333333333314" y="15.0" />
+            </edge>
+            <edge source="edu.models.Content" target="django.contrib.contenttypes.models.ContentType">
+              <point x="-35.0" y="-15.0" />
+              <point x="514.4097222222223" y="305.0" />
+              <point x="401.0" y="305.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="map.models.Marker" target="map.models.Category">
+              <point x="0.0" y="-15.0" />
+              <point x="221.0" y="460.0" />
+              <point x="180.75" y="460.0" />
+              <point x="37.25" y="15.0" />
+            </edge>
+            <edge source="library.models.Text" target="map.models.Category">
+              <point x="0.0" y="-15.0" />
+              <point x="66.0" y="460.0" />
+              <point x="106.25" y="460.0" />
+              <point x="-37.25" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="376.0" y="258.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3d5373b0-4eb2-4b69-8eb9-e6ee21c04691/schema/main/table/quiz_quiz">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3d5373b0-4eb2-4b69-8eb9-e6ee21c04691/schema/main/table/quiz_quiz.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/templates/pagination.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="1" lean-forward="true" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="53" lean-forward="true" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/templates/library/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="24" column="12" lean-forward="true" selection-end-line="32" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/templates/library/share.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="14" lean-forward="true" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="47" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="12" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/6de94899-a6ee-4bc3-952c-b7eada4fd0ee.SCHEMA:main">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>6de94899-a6ee-4bc3-952c-b7eada4fd0ee.SCHEMA:main</OriginalElement>
+          <nodes>
+            <node x="" y="">6de94899-a6ee-4bc3-952c-b7eada4fd0ee.TABLE:main.map_category</node>
+            <node x="" y="">6de94899-a6ee-4bc3-952c-b7eada4fd0ee.TABLE:main.edu_course_students</node>
+            <node x="" y="">6de94899-a6ee-4bc3-952c-b7eada4fd0ee.TABLE:main.django_content_type</node>
+            <node x="" y="">6de94899-a6ee-4bc3-952c-b7eada4fd0ee.TABLE:main.edu_video</node>
+            <node x="" y="">6de94899-a6ee-4bc3-952c-b7eada4fd0ee.TABLE:main.auth_user_user_permissions</node>
+            <node x="" y="">6de94899-a6ee-4bc3-952c-b7eada4fd0ee.TABLE:main.edu_image</node>
+            <node x="" y="">6de94899-a6ee-4bc3-952c-b7eada4fd0ee.TABLE:main.map_marker</node>
+            <node x="" y="">6de94899-a6ee-4bc3-952c-b7eada4fd0ee.TABLE:main.edu_course</node>
+            <node x="" y="">6de94899-a6ee-4bc3-952c-b7eada4fd0ee.TABLE:main.django_admin_log</node>
+            <node x="" y="">6de94899-a6ee-4bc3-952c-b7eada4fd0ee.TABLE:main.edu_module</node>
+            <node x="" y="">6de94899-a6ee-4bc3-952c-b7eada4fd0ee.TABLE:main.edu_subject</node>
+            <node x="" y="">6de94899-a6ee-4bc3-952c-b7eada4fd0ee.TABLE:main.taggit_tag</node>
+            <node x="" y="">6de94899-a6ee-4bc3-952c-b7eada4fd0ee.TABLE:main.edu_file</node>
+            <node x="" y="">6de94899-a6ee-4bc3-952c-b7eada4fd0ee.TABLE:main.taggit_taggeditem</node>
+            <node x="" y="">6de94899-a6ee-4bc3-952c-b7eada4fd0ee.TABLE:main.quiz_quiz</node>
+            <node x="" y="">6de94899-a6ee-4bc3-952c-b7eada4fd0ee.TABLE:main.auth_user</node>
+            <node x="" y="">6de94899-a6ee-4bc3-952c-b7eada4fd0ee.TABLE:main.edu_text</node>
+            <node x="" y="">6de94899-a6ee-4bc3-952c-b7eada4fd0ee.TABLE:main.library_text</node>
+            <node x="" y="">6de94899-a6ee-4bc3-952c-b7eada4fd0ee.TABLE:main.edu_content</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.48046875" x="320.0" y="659.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="54" selection-start-line="40" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu/templatetags/edu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="19" selection-start-line="2" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu/templates/manage/course/list.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu/templates/manage/module/content_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="69" selection-start-line="5" selection-end-line="9" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/templates/map/hrmap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/students/templates/students/course/list.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu/templates/courses/option/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="48" column="14" lean-forward="true" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="27" column="49" selection-start-line="24" selection-end-line="27" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/students/templates/students/course/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/templates/library/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/static/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

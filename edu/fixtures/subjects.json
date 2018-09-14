@@ -1,0 +1,212 @@
+[
+{
+  "model": "edu.subject",
+  "pk": 1,
+  "fields": {
+    "title": "Democracy",
+    "slug": "democracy"
+  }
+},
+{
+  "model": "edu.subject",
+  "pk": 2,
+  "fields": {
+    "title": "Human Rights",
+    "slug": "human-rights"
+  }
+},
+{
+  "model": "edu.subject",
+  "pk": 3,
+  "fields": {
+    "title": "Personalities",
+    "slug": "personalities"
+  }
+},
+{
+  "model": "edu.course",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "subject": 1,
+    "title": "Democratic Movements",
+    "slug": "democratic-movements",
+    "overview": "The course includes historical prospective of democratic movements on the wold",
+    "created": "2018-08-14T10:03:12.322Z"
+  }
+},
+{
+  "model": "edu.course",
+  "pk": 2,
+  "fields": {
+    "owner": 1,
+    "subject": 2,
+    "title": "What are human rights",
+    "slug": "what-are-human-rights",
+    "overview": "History of human rights, positive and negative rights, principles of the rule-of-law",
+    "created": "2018-08-14T10:05:26.244Z"
+  }
+},
+{
+  "model": "edu.course",
+  "pk": 3,
+  "fields": {
+    "owner": 1,
+    "subject": 3,
+    "title": "Those who fight for democracy",
+    "slug": "those-who-fight-democracy",
+    "overview": "This is a course about people",
+    "created": "2018-08-14T10:11:17.527Z"
+  }
+},
+{
+  "model": "edu.course",
+  "pk": 4,
+  "fields": {
+    "owner": 1,
+    "subject": 2,
+    "title": "Human rights in XXI century",
+    "slug": "human-rights-xxi-century",
+    "overview": "Bio-Ethic and right to life\r\nIndigenous people and collective rights in XXI century\r\nAI and right to private live",
+    "created": "2018-08-14T10:14:14.559Z"
+  }
+},
+{
+  "model": "edu.course",
+  "pk": 5,
+  "fields": {
+    "owner": 1,
+    "subject": 3,
+    "title": "What civil society can do",
+    "slug": "what-civil-society-can-do",
+    "overview": "Success stories of ground-root initiatives",
+    "created": "2018-08-14T10:17:24.473Z"
+  }
+},
+{
+  "model": "edu.module",
+  "pk": 1,
+  "fields": {
+    "course": 1,
+    "title": "Movements for equal rights",
+    "description": "Starting from Ancient Greece people were fating for their rights"
+  }
+},
+{
+  "model": "edu.module",
+  "pk": 2,
+  "fields": {
+    "course": 1,
+    "title": "Revolutions",
+    "description": "How revolutions lead to establishing constitutionalism"
+  }
+},
+{
+  "model": "edu.module",
+  "pk": 3,
+  "fields": {
+    "course": 1,
+    "title": "What is the government",
+    "description": "Human rights and responsibilities of the government"
+  }
+},
+{
+  "model": "edu.module",
+  "pk": 4,
+  "fields": {
+    "course": 2,
+    "title": "History of human rights",
+    "description": "Are human rights a 'western' concept?"
+  }
+},
+{
+  "model": "edu.module",
+  "pk": 5,
+  "fields": {
+    "course": 2,
+    "title": "Rights and Freedoms",
+    "description": "What is a difference"
+  }
+},
+{
+  "model": "edu.module",
+  "pk": 6,
+  "fields": {
+    "course": 2,
+    "title": "Human rights documents",
+    "description": "Milestones in the movement towards human rights"
+  }
+},
+{
+  "model": "edu.module",
+  "pk": 7,
+  "fields": {
+    "course": 3,
+    "title": "Mahatma Ghandi",
+    "description": "India"
+  }
+},
+{
+  "model": "edu.module",
+  "pk": 8,
+  "fields": {
+    "course": 3,
+    "title": "Martn Luther King Jr",
+    "description": "I have a dream"
+  }
+},
+{
+  "model": "edu.module",
+  "pk": 9,
+  "fields": {
+    "course": 3,
+    "title": "Nelson Mandella",
+    "description": "Stop rasism"
+  }
+},
+{
+  "model": "edu.module",
+  "pk": 10,
+  "fields": {
+    "course": 3,
+    "title": "Eleonor Rusvelt",
+    "description": "Universal Declaration on Human Rights"
+  }
+},
+{
+  "model": "edu.module",
+  "pk": 11,
+  "fields": {
+    "course": 4,
+    "title": "Right to Life",
+    "description": "Bio-ethic, euthanasia, clones"
+  }
+},
+{
+  "model": "edu.module",
+  "pk": 12,
+  "fields": {
+    "course": 4,
+    "title": "Privacy",
+    "description": "IT and protection of privacy"
+  }
+},
+{
+  "model": "edu.module",
+  "pk": 13,
+  "fields": {
+    "course": 5,
+    "title": "Right to fair trial",
+    "description": "How to make courts open and transparent"
+  }
+},
+{
+  "model": "edu.module",
+  "pk": 14,
+  "fields": {
+    "course": 5,
+    "title": "Maidan: Ukrainian revolution 2013",
+    "description": "What do you know about solidarity"
+  }
+}
+]
