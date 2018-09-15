@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06314a32-8c7d-4ee1-99d0-629d885142e4" name="Default" comment="new design">
+    <list default="true" id="06314a32-8c7d-4ee1-99d0-629d885142e4" name="Default" comment="new design for Map">
+      <change afterPath="$PROJECT_DIR$/quiz/migrations/0009_auto_20180915_0008.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/migrations/0010_auto_20180915_0017.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/migrations/0011_category.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/migrations/0012_auto_20180915_0720.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/migrations/0013_auto_20180915_0732.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/migrations/0014_auto_20180915_0923.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/map/static/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/map/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/admin.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,14 +57,15 @@
     <session id="881338745">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -64,9 +74,9 @@
           <entry key="Python/#C:/Users/HP User/Desktop/MyPythonFiles/HRE_stable/HRE" value="1" />
           <entry key="SCHEMA:main" value="5" />
           <entry key="css" value="2" />
-          <entry key="html" value="17" />
+          <entry key="html" value="21" />
           <entry key="myquiz_answer" value="1" />
-          <entry key="py" value="24" />
+          <entry key="py" value="41" />
           <entry key="quiz_category" value="1" />
           <entry key="quiz_quiz" value="1" />
           <entry key="sql" value="1" />
@@ -77,30 +87,31 @@
         <counts>
           <entry key="CSS" value="2" />
           <entry key="Database Element" value="3" />
-          <entry key="HTML" value="17" />
+          <entry key="HTML" value="21" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="24" />
+          <entry key="Python" value="41" />
           <entry key="SQL" value="1" />
           <entry key="UML" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="99" />
-          <entry key="html" value="5" />
-          <entry key="py" value="115" />
-          <entry key="py@HRE" value="37" />
+          <entry key="Django Console" value="201" />
+          <entry key="css" value="105" />
+          <entry key="html" value="301" />
+          <entry key="py" value="649" />
+          <entry key="py@HRE" value="129" />
           <entry key="sql" value="5" />
-          <entry key="txt" value="66" />
+          <entry key="txt" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="99" />
-          <entry key="CommandLine" value="34" />
-          <entry key="HTML" value="5" />
-          <entry key="PLAIN_TEXT" value="69" />
-          <entry key="Python" value="115" />
+          <entry key="CSS" value="105" />
+          <entry key="CommandLine" value="124" />
+          <entry key="HTML" value="301" />
+          <entry key="PLAIN_TEXT" value="79" />
+          <entry key="Python" value="850" />
           <entry key="SQL" value="5" />
         </counts>
       </usages-collector>
@@ -112,19 +123,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/students/templates/students/course/detail.html">
+        <entry file="file://$PROJECT_DIR$/quiz/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="170">
+              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quiz/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quiz/templates/quiz/quiz_home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/map/static/css/base.css">
+        <entry file="file://$PROJECT_DIR$/map/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="231" column="22" selection-start-line="231" selection-start-column="22" selection-end-line="231" selection-end-column="22" />
+            <state relative-caret-position="85">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -132,8 +179,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/templates/library/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="306">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quiz/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,6 +213,7 @@
     <findStrings>
       <find>module</find>
       <find>content</find>
+      <find>options</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -162,8 +222,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/userprofile/templates/userprofile/register.html" />
-        <option value="$PROJECT_DIR$/userprofile/templates/userprofile/register_done.html" />
         <option value="$PROJECT_DIR$/map/static/css/map_style.css" />
         <option value="$PROJECT_DIR$/users/templates/users/user/registration.html" />
         <option value="$PROJECT_DIR$/users/forms.py" />
@@ -194,18 +252,14 @@
         <option value="$PROJECT_DIR$/library/templates/library/article/detail.html" />
         <option value="$PROJECT_DIR$/library/templates/library/article/list.html" />
         <option value="$PROJECT_DIR$/HRE/urls.py" />
-        <option value="$PROJECT_DIR$/map/templates/base.html" />
         <option value="$PROJECT_DIR$/library/urls.py" />
         <option value="$PROJECT_DIR$/library/forms.py" />
         <option value="$PROJECT_DIR$/library/apps.py" />
-        <option value="$PROJECT_DIR$/library/admin.py" />
         <option value="$PROJECT_DIR$/library/templates/pagination.html" />
         <option value="$PROJECT_DIR$/library/templates/library/share.html" />
         <option value="$PROJECT_DIR$/library/templates/library/list.html" />
         <option value="$PROJECT_DIR$/library/templates/library/detail.html" />
         <option value="$PROJECT_DIR$/library/models.py" />
-        <option value="$PROJECT_DIR$/quiz/models.py" />
-        <option value="$PROJECT_DIR$/quiz/admin.py" />
         <option value="$PROJECT_DIR$/edu/models.py" />
         <option value="$PROJECT_DIR$/library/views.py" />
         <option value="$PROJECT_DIR$/map/static/css/HRE_base.css" />
@@ -213,6 +267,12 @@
         <option value="$PROJECT_DIR$/students/templates/students/course/detail.html" />
         <option value="$PROJECT_DIR$/.gitignore.txt" />
         <option value="$PROJECT_DIR$/map/static/css/base.css" />
+        <option value="$PROJECT_DIR$/quiz/views.py" />
+        <option value="$PROJECT_DIR$/quiz/models.py" />
+        <option value="$PROJECT_DIR$/quiz/admin.py" />
+        <option value="$PROJECT_DIR$/quiz/templates/quiz/quiz_home.html" />
+        <option value="$PROJECT_DIR$/library/admin.py" />
+        <option value="$PROJECT_DIR$/map/templates/base.html" />
       </list>
     </option>
   </component>
@@ -246,25 +306,59 @@
             <path>
               <item name="HRE_stable" type="b2602c69:ProjectViewProjectNode" />
               <item name="HRE_stable" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRE_stable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRE_stable" type="462c0819:PsiDirectoryNode" />
               <item name="HRE" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HRE_stable" type="b2602c69:ProjectViewProjectNode" />
               <item name="HRE_stable" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRE_stable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRE_stable" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRE_stable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRE_stable" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRE_stable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRE_stable" type="462c0819:PsiDirectoryNode" />
               <item name="map" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HRE_stable" type="b2602c69:ProjectViewProjectNode" />
               <item name="HRE_stable" type="462c0819:PsiDirectoryNode" />
               <item name="map" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HRE_stable" type="b2602c69:ProjectViewProjectNode" />
               <item name="HRE_stable" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="quiz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRE_stable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRE_stable" type="462c0819:PsiDirectoryNode" />
+              <item name="quiz" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRE_stable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRE_stable" type="462c0819:PsiDirectoryNode" />
+              <item name="quiz" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="quiz" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -374,13 +468,48 @@
       <option name="project" value="LOCAL" />
       <updated>1536951427998</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new design for Map">
+      <created>1536961189421</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1536961189421</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4818402" visible="true" weight="0.20499243" />
+      <window_info id="Structure" order="1" weight="0.24962178" />
+      <window_info id="Favorites" order="2" sideWeight="0.5181598" side_tool="true" weight="0.1505295" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31587562" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4969743" weight="0.03927987" />
+      <window_info anchor="bottom" id="manage.py@HRE" order="8" weight="0.35188216" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32569557" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32569557" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5030257" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Console" order="12" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="REST Client" order="13" weight="0.4140753" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="15" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="4" weight="0.22617246" />
+      <window_info anchor="right" id="SciView" order="5" />
+      <window_info anchor="right" id="PlantUML" order="6" />
+    </layout>
+    <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4818402" visible="true" weight="0.19894099" />
       <window_info id="Structure" order="1" weight="0.24962178" />
       <window_info id="Favorites" order="2" sideWeight="0.5181598" side_tool="true" weight="0.1505295" />
@@ -394,7 +523,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4969743" weight="0.03927987" />
       <window_info active="true" anchor="bottom" id="manage.py@HRE" order="8" visible="true" weight="0.35188216" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32569557" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3280757" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32733223" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5030257" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Console" order="12" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="REST Client" order="13" weight="0.4140753" />
@@ -404,31 +533,9 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Data View" order="3" weight="0.32980332" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.22617246" />
+      <window_info anchor="right" id="Database" order="4" weight="0.22617246" />
       <window_info anchor="right" id="SciView" order="5" />
       <window_info anchor="right" id="PlantUML" order="6" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15592971" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329653" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3170347" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="9" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3280757" />
-      <window_info anchor="bottom" id="manage.py@HRE" order="11" weight="0.32492113" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Data View" order="4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,103 +551,10 @@
     </ignored-roots>
     <MESSAGE value="stable working project" />
     <MESSAGE value="new design" />
-    <option name="LAST_COMMIT_MESSAGE" value="new design" />
+    <MESSAGE value="new design for Map" />
+    <option name="LAST_COMMIT_MESSAGE" value="new design for Map" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://src:table:/61e0b21e/3d5373b0-4eb2-4b69-8eb9-e6ee21c04691/main.edu_file">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/61e0b21e/3d5373b0-4eb2-4b69-8eb9-e6ee21c04691/main.edu_file">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.edu_course">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.edu_course</OriginalElement>
-          <nodes>
-            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.auth_user</node>
-            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.edu_subject</node>
-            <node x="" y="">3d5373b0-4eb2-4b69-8eb9-e6ee21c04691.TABLE:main.edu_course</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.6742424242424242" x="263.0" y="874.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://Python/#C:/Users/HP User/Desktop/MyPythonFiles/HRE_stable/quiz">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>Python</ID>
-          <OriginalElement>#C:/Users/HP User/Desktop/MyPythonFiles/HRE_stable/quiz</OriginalElement>
-          <nodes>
-            <node x="" y="">quiz.admin.QuizAdmin</node>
-            <node x="" y="">django.contrib.admin.options.BaseModelAdmin</node>
-            <node x="" y="">django.forms.widgets.MediaDefiningClass</node>
-            <node x="" y="">django.db.models.base.Model</node>
-            <node x="" y="">django.apps.config.AppConfig</node>
-            <node x="" y="">quiz.models.Quiz</node>
-            <node x="" y="">object</node>
-            <node x="" y="">django.contrib.admin.options.ModelAdmin</node>
-            <node x="" y="">quiz.models.Category</node>
-            <node x="" y="">django.db.migrations.migration.Migration</node>
-            <node x="" y="">django.db.models.base.ModelBase</node>
-            <node x="" y="">quiz.admin.CategoryAdmin</node>
-            <node x="" y="">quiz.apps.QuizConfig</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.6162881754111198" x="583.0" y="-78.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://Python/#C:/Users/HP User/Desktop/MyPythonFiles/HRE_stable/map">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>Python</ID>
-          <OriginalElement>#C:/Users/HP User/Desktop/MyPythonFiles/HRE_stable/map</OriginalElement>
-          <nodes>
-            <node x="" y="">map.models.Marker</node>
-            <node x="" y="">django.forms.widgets.MediaDefiningClass</node>
-            <node x="" y="">django.db.models.base.Model</node>
-            <node x="" y="">django.db.migrations.migration.Migration</node>
-            <node x="" y="">object</node>
-            <node x="" y="">django.apps.config.AppConfig</node>
-            <node x="" y="">django.contrib.admin.options.BaseModelAdmin</node>
-            <node x="" y="">map.models.Category</node>
-            <node x="" y="">map.admin.MarkerAdmin</node>
-            <node x="" y="">map.admin.CategoryAdmin</node>
-            <node x="" y="">django.contrib.admin.options.ModelAdmin</node>
-            <node x="" y="">map.apps.MapConfig</node>
-            <node x="" y="">django.db.models.base.ModelBase</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.6599118942731278" x="522.0" y="135.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/edu/templates/manage/content/form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -548,34 +562,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://src:table:/61e0b21e/3d5373b0-4eb2-4b69-8eb9-e6ee21c04691/main.edu_module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://src:table:/61e0b21e/3d5373b0-4eb2-4b69-8eb9-e6ee21c04691/main.edu_module" />
     <entry file="das://src:table:/61e0b21e/3d5373b0-4eb2-4b69-8eb9-e6ee21c04691/main.texts_text" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3d5373b0-4eb2-4b69-8eb9-e6ee21c04691/console.sql" />
     <entry file="das://table:/61e0b21e/3d5373b0-4eb2-4b69-8eb9-e6ee21c04691/main.texts_text" />
     <entry file="file://$PROJECT_DIR$/texts/models.py" />
-    <entry file="file://$PROJECT_DIR$/map/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://table:/61e0b21e/3d5373b0-4eb2-4b69-8eb9-e6ee21c04691/main.map_category">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/61e0b21e/3d5373b0-4eb2-4b69-8eb9-e6ee21c04691/main.edu_module">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://table:/61e0b21e/3d5373b0-4eb2-4b69-8eb9-e6ee21c04691/main.map_category" />
+    <entry file="das://table:/61e0b21e/3d5373b0-4eb2-4b69-8eb9-e6ee21c04691/main.edu_module" />
     <entry file="file://$PROJECT_DIR$/texts/admin.py" />
     <entry file="file://$PROJECT_DIR$/edu/templates/courses/option/detail.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -595,13 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
           <caret line="30" column="13" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -817,13 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/library/templates/pagination.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -845,24 +824,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/templates/library/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="24" column="12" lean-forward="true" selection-end-line="32" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/library/templates/library/share.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="14" lean-forward="true" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="47" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="12" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -901,27 +866,6 @@
             <Category>Columns</Category>
           </Categories>
           <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="54" selection-start-line="40" selection-end-line="54" />
         </state>
       </provider>
     </entry>
@@ -966,13 +910,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edu/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="27" column="49" selection-start-line="24" selection-end-line="27" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -994,17 +931,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/templates/library/detail.html">
+    <entry file="file://$PROJECT_DIR$/map/static/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="280">
+          <caret line="233" lean-forward="true" selection-start-line="233" selection-end-line="233" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/map/static/css/base.css">
+    <entry file="file://$PROJECT_DIR$/library/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="231" column="22" selection-start-line="231" selection-start-column="22" selection-end-line="231" selection-end-column="22" />
+        <state relative-caret-position="-415">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="24" selection-start-line="4" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/templates/library/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/templates/library/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz/templates/quiz/quiz_home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
         </state>
       </provider>
     </entry>
