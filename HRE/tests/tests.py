@@ -35,6 +35,18 @@ class EmailTest(TestCase):
         self.assertEqual(len(mail.outbox), 1)
         self.assertEqual(mail.outbox[0].subject, 'Subject here')
 
+class TestRegistrationForm(TestCase):
+
+    def test_registration_form(self):
+        # test invalid data
+        invalid_data = {
+            "username": "user@test.com",
+            "password": "secret",
+            "confirm": "not secret"
+        }
+        form = CourseEnrollForm(data=invalid_data)
+        form.is_valid()
+        self.assertTrue(form.errors)
 
 class TextListViewTest(TestCase):
     def setUp(self):
@@ -68,16 +80,4 @@ def test_paginator(self):
     self.assertEqual(len(response.context['text']), 3)
 
 
-class TestRegistrationForm(TestCase):
-
-    def test_registration_form(self):
-        # test invalid data
-        invalid_data = {
-            "username": "user@test.com",
-            "password": "secret",
-            "confirm": "not secret"
-        }
-        form = CourseEnrollForm(data=invalid_data)
-        form.is_valid()
-        self.assertTrue(form.errors)
 
