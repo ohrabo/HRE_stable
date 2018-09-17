@@ -23,6 +23,3 @@ class Marker(models.Model):
 
     def __str__(self):
         return self.name
-
-    # def get_absolute_url(self):
-    #     return reverse('doc-detail', args=[str(self.id)])
